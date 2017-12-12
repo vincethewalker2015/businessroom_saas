@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 # Use postgresql as the database for production
@@ -36,10 +36,15 @@ gem 'devise', '3.4.1'
 gem 'stripe', '1.16.1'
 # Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
-# Use paperclip for image uploads
-gem 'paperclip', '4.2.1'
-# Use AWS S3 to store image files instead of heroku
-gem 'aws-sdk'
+# For image Upload use Carrier wave
+gem 'carrierwave', '1.1.0'
+gem 'mini_magick', '4.7.0'
+# For Pre s3 storage use fog
+gem 'fog'
+
+# env variable to keep sensitive data hidden
+gem 'dotenv-rails', :groups => [:development, :test]
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 # Use unicorn as the app server

@@ -15,3 +15,5 @@
 /config/application.yml
 # Ignore uploaded test images.
 /public/uploads
+# Ignore files which contain AWS keys
+.env
