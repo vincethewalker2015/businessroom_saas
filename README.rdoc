@@ -4,3 +4,5 @@ Business Room is a SaaS (Software as a service) application that includes a paym
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+Created by Vincent Walker https://www.vincethewalker.com
