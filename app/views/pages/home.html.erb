@@ -1,5 +1,5 @@
 
-
+<body class="homeBody">
 <div class="jumbotron text-center painter">
     <h1>Welcome to Business Den</h1>
     <h3>A membership site where small businesses and entrepreuners can meet Potential Investors </h3>
@@ -20,7 +20,7 @@
         </div> 
     </div>
     <div class="col-md-6">
-        <div class="well profile-black-white">
+        <div class="well profile-black-white bgPic">
             <h2 class="text-center">Community Profiles</h2>
             <p>Visit the community to meet other Business Owners, entrepreneurs, and investors</p>
             <%= link_to "Visit the community", users_path, class: 'btn btn-default-orange btn-lg btn-block', id: 'orange' %>
@@ -28,7 +28,7 @@
     </div>
     <% else %>
     <div class="col-md-6">
-        <div class="well profile-black-white">
+        <div class="well profile-black-white bgPic2">
             <h2 class="text-center">Free membership</h2>
             <h4>Join for a free account and get basic access to the group and meet the community.</h4>
             
@@ -45,4 +45,5 @@
       </div>
     <% end %>
 </div>
+</body>
 

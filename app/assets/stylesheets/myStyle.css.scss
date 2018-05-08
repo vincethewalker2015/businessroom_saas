@@ -2,8 +2,29 @@
 
 .jumbotron.painter {
      background-color: #ffffff;
+     color: #fff;
     border: 9px solid black;
     border-radius: 25px !important ;
+}
+
+.jumbotron {
+    background-image: asset-url("cover.png");
+    background-size: cover;
+    height: 400px;
+}
+
+/* images in Wells on Home Page */
+
+
+
+/* BODY */
+
+.homeBody {
+    background-color: black;
+}
+
+body {
+    background-color: black;
 }
 
 .space {
@@ -29,13 +50,13 @@
 /* Well effects - adding black line around border */
 
 .well.profile-black-white {
-    background-color: #ffffff;
+    background-color: #D2D2D2;
     border: 9px solid black;
     border-radius: 25px;
 }
 
 .well.profile-black-white-thin {
-    background-color: #ffffff;
+    background-color: #D2D2D2;
     border: 3px solid black;
     border-radius: 25px;
 }
