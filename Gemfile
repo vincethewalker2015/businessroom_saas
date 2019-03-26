@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', group: [:development, :test]
+gem 'sqlite3', '1.3.11', group: [:development, :test]
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
@@ -31,7 +31,7 @@ gem 'sdoc', '0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 # Use devise for user auth
-gem 'devise', '3.4.1'
+gem 'devise', '4.6.0'
 # Use stripe for handling payments
 gem 'stripe', '1.16.1'
 # Use figaro to hide secret keys
@@ -42,7 +42,7 @@ gem 'mini_magick', '4.7.0'
 # For Pre s3 storage use fog
 gem 'fog'
 
-gem 'sprockets'
+gem "sprockets"
 
 # env variable to keep sensitive data hidden
 gem 'dotenv-rails', :groups => [:development, :test]
