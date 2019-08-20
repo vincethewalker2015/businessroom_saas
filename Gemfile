@@ -38,7 +38,7 @@ gem 'stripe', '1.16.1'
 gem 'figaro', '1.0.0'
 # For image Upload use Carrier wave
 gem 'carrierwave', '1.1.0'
-gem 'mini_magick', '4.7.0'
+gem 'mini_magick', '4.9.4'
 # For Pre s3 storage use fog
 gem 'fog'
 
